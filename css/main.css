@@ -20,10 +20,12 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color:aqua;
+    cursor: url("/pointer.gif"), pointer;
 }
 a:hover {
     text-decoration: underline;
     color:pink;
+    cursor: url("/pointer.gif"), pointer;
 }
 h1 {
     font-size: 3em;
@@ -35,9 +37,6 @@ h2 {
 }
 h3 {
     color:white;
-html {
-    cursor: url('/default.gif'), default;
-}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
