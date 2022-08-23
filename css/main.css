@@ -1,8 +1,8 @@
 body {
+    cursor: url('/default.gif'), default;
     margin: 60px auto;
     width: 70%;
     background: #000000
-    cursor: url('/default.gif'), default;
 }
 
 nav ul, footer ul {
