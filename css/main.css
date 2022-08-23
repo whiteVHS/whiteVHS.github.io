@@ -35,7 +35,7 @@ h2 {
 h3 {
     color:white;
 html {
-    cursor: url('/default.gif'), pointer;
+    cursor: url('/default.gif'), default;
 }
 p {
     font-size: 1.5em;
