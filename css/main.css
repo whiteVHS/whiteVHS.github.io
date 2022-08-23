@@ -35,7 +35,7 @@ h2 {
 h3 {
     color:white;
 html {
-    cursor: url('https://64.media.tumblr.com/d75f71b2e3cf263611df21e873bc8750/67b6aefbe050c1d2-cf/s75x75_c1/ea61f259fa4f73e8bc0a0bbb729d13a38cc61d45.gifv'), pointer;
+    cursor: url('/default.gif'), pointer;
 }
 p {
     font-size: 1.5em;
