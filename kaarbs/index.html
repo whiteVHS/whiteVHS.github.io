@@ -11,13 +11,13 @@ title: kojiros automated arch ricing bash script
     <p style="color:white">1. clone the repo + move the script to your home folder:</p>
     <p style="color:lime"><code>git clone https://github.com/basedghost/kaarbs/ && cd kaarbs;mv kaarbs_*.sh ~/kaarbs.sh; cd ..</code></p>
     <p style="color:white">2. make the script executable:</p>
-    <p style="color:green"><code>chmod +x kaarbs.sh</code></p>
+    <p style="color:lime"><code>chmod +x kaarbs.sh</code></p>
     <p style="color:white">3. run the script:</p>
-    <p style="color:green"><code>./kaarbs.sh</code></p>
+    <p style="color:lime"><code>./kaarbs.sh</code></p>
     <p style="color:white">This script has been tested on a fresh <a href="https://archlinux.org/download/" target="_blank" rel="noopener noreferrer">Arch Linux</a> install (using the archinstall script + multilib repo + networkmanager + pipewire + xfce4 DE)</p>
     <p style="color:white"><strong><a href="https://user-images.githubusercontent.com/111021033/184048144-cba87669-57d7-479d-bf45-ed37b7dc4fe2.png" target="_blank" rel="noopener noreferrer">A screenshot of the test</a></strong></p>
     <p style="color:black">hello :)</p>
-    <p style="color:white">This script pulls dotfiles from my <a href="https://github.com/basedghost/dotfiles/" target="_blank" rel="noopener noreferrer">personal repository</a>. There is a <a href="https://github.com/basedghost/kaarbs/blob/main/PACKAGES.md" target="_blank" rel="noopener noreferrer">complete list of packages</a> that this script gives you the choice of installing, if you'd like to check before running it.</p>
+    <p style="color:lime">This script pulls dotfiles from my <a href="https://github.com/basedghost/dotfiles/" target="_blank" rel="noopener noreferrer">personal repository</a>. There is a <a href="https://github.com/basedghost/kaarbs/blob/main/PACKAGES.md" target="_blank" rel="noopener noreferrer">complete list of packages</a> that this script gives you the choice of installing, if you'd like to check before running it.</p>
     <h1>post-script tweaks</h1>
     <p style="color:white">Here's a couple of things you might want to do after using kaarbs:</p>
     <p style="color:white">If you'd like to use the custom sudo lecture, use <code>sudo visudo</code> and add these two lines:</p>
@@ -25,7 +25,7 @@ title: kojiros automated arch ricing bash script
     <p style="color:green"><code>"Defaults lecture_file=~/lecture"</code></p>
     <p style="color:white">If you'd like to use animated cursors, use the program lxappearance to choose between them.</p>
     <p style="color:white">If you have <a href="https://wiki.archlinux.org/title/Lightdm" target="_blank" rel="noopener noreferrer">LightDM</a> as your display manager and would like to use the <a href="https://github.com/manilarome/lightdm-webkit2-theme-glorious" target="_blank" rel="noopener noreferrer">custom login theme</a>, edit your <code>/etc/lightdm/lightdm.conf</code> file and add this line:</p>
-    <p style="color:green"><code>greeter-session=lightdm-webkit2-greeter</code></p>
+    <p style="color:lime"><code>greeter-session=lightdm-webkit2-greeter</code></p>
     <p style="color:white">You can configure the theme further by editing <code>/etc/lightdm/lightdm-webkit2-greeter.conf.</code></p>
     <p style="color:white">If you installed Steam and would like to use Proton-GE, download the latest release <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases/latest/" target="_blank" rel="noopener noreferrer">here</a> and extract it to this path:<code>~/.local/share/Steam/compatibilitytools.d/</code></p>
     <p style="color:white">If you installed virt-manager, you must edit your <code>/etc/libvirt/libvirtd.conf</code> and uncomment <code>unix_sock_group</code> <code>unix_sock_ro_perms</code> and <code>unix_sock_rw_perms</code>. Then run <code>sudo usermod -aG libvirt $(whoami)</code> and reboot <code>systemctl reboot</code></p>
