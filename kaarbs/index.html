@@ -6,10 +6,10 @@ title: kojiros automated arch ricing bash script
   <h1><strong><a href="https://github.com/basedghost/kaarbs" target="_blank" rel="noopener noreferrer">kaarbs</strong></a></h1>
   <h2><b>kojiros automated arch ricing bash script<b></h2>
   <p style="color:black">you just lost the game</p>
-  <p style="color:white">This script is intended to be a quick/lazy way of auto-installing all the packages I normally would but with the option to pick and choose what you want to install. This is mainly for my personal use, however others could use it. Because of my lack of technical knowledge it does still require a <em>slight</em> amount of tinkering afterwards, but this should do for now.</p>
-  <h1>instructions:</h1>
+  <p style="color:white">This script is intended to be a quick/lazy way of auto-installing all the packages I normally would but with the option to pick and choose what you want to install. This is mainly for my personal use, however others can use it (at their own risk). Because of my lack of technical knowledge it does still require a <em>slight</em> amount of tinkering afterwards, but this should do for now.</p>
+  <h1>Instructions:</h1>
     <p style="color:white">1. clone the repo + move the script to your home folder:</p>
-    <p style="color:lime"><code>git clone https://github.com/basedghost/kaarbs/ && cd kaarbs;mv kaarbs_*.sh ~/kaarbs.sh; cd ..</code></p>
+    <p style="color:lime"><code>git clone https://github.com/basedghost/kaarbs/ && mv kaarbs/kaarbs_*.sh kaarbs.sh</code></p>
     <p style="color:white">2. make the script executable:</p>
     <p style="color:lime"><code>chmod +x kaarbs.sh</code></p>
     <p style="color:white">3. run the script:</p>
@@ -24,9 +24,6 @@ title: kojiros automated arch ricing bash script
     <p style="color:lime"><code>"Defaults lecture=always"</code></p>
     <p style="color:lime"><code>"Defaults lecture_file=~/lecture"</code></p>
     <p style="color:white">- If you'd like to use animated cursors, use the program lxappearance to choose between them.</p>
-    <p style="color:white">- If you have <a href="https://wiki.archlinux.org/title/Lightdm" target="_blank" rel="noopener noreferrer">LightDM</a> as your display manager and would like to use the <a href="https://github.com/manilarome/lightdm-webkit2-theme-glorious" target="_blank" rel="noopener noreferrer">custom login theme</a>, edit your <code>/etc/lightdm/lightdm.conf</code> file and add this line:</p>
-    <p style="color:lime"><code>greeter-session=lightdm-webkit2-greeter</code></p>
-    <p style="color:white">You can configure the theme further by editing <code>/etc/lightdm/lightdm-webkit2-greeter.conf.</code></p>
     <p style="color:white">- If you installed Steam and would like to use Proton-GE, download the latest release <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases/latest/" target="_blank" rel="noopener noreferrer">here</a> and extract it to this path:<code>~/.local/share/Steam/compatibilitytools.d/</code></p>
     <p style="color:white">- If you installed virt-manager, you must edit your <code>/etc/libvirt/libvirtd.conf</code> and uncomment:</p><p style="color:lime"><code>unix_sock_group</code><br><code>unix_sock_ro_perms</code></p><p style="color:white">and</p><p style="color:lime"><code>unix_sock_rw_perms</code></p><p style="color:white">Then run: </p><p style="color:lime"><code>sudo usermod -aG libvirt $(whoami)</code></p><p style="color:white"> and reboot. </p><p style="color:lime"><code>systemctl reboot</code></p>
     </div><!-- /.blurb -->
