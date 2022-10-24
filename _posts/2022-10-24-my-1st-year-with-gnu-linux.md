@@ -49,9 +49,13 @@ It's unfathomable just how incredible it is that we have this LIBRE operating sy
 The thought of only having Windows or macOS to choose from is truly dystopian.
 
 One thing I will say about making any sort of change in your life, especially big changes, is that it'll most likely come at some sort of price, or you'll end up having to sacrifice something. It's also very much okay to take your time with these changes; even small, incremental choices build up into a big change. When it comes to switching from Windows to GNU/Linux, a piece of advice I can give is to look at every piece of software you have installed, every program you use on a daily and ask yourself the following:
+
 1) Is this software Free(Libre) and Open-Source? (check the license)
+
 2) Is this software available on GNU/Linux? (Or if need be, can this run through Wine?)
+
 3) Is there a FOSS alternative I could be using instead? (https://alternativeto.net)
+
 4) Do I *really* need this software? (e.g. for work, school, etc)
 
 Bit by bit, I swapped out proprietary software like music players, text editors, web browsers, etc. for FOSS ones.
@@ -63,4 +67,5 @@ I've only been using GNU/Linux as my daily driver for just under a year, and Arc
 I feel within that year, I've learned a lot about software in general, and the bigger picture of how important it is in our lives, what role it plays and how we as people need to be much more mindful of it. I've also learned about the importance of free software, specifically in sectors like government, schools, healthcare, etc. Even things in the majority of peoples daily lives like communications; these services we depend on tremendously, and for them to be run on proprietary software/services is, in a way, doing a disservice to the very people it's serving. We need free software to be prioritized ESPECIALLY in those high-profile sectors. That's a whole other conversation though.
 
 When you take the time to learn about GNU/Linux, it can truly be eye-opening in many ways. This is just the beginning of my "Linux Journey", and I am excited to see where I will end up next.
+
 -H
