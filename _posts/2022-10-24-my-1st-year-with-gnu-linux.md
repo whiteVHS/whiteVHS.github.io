@@ -4,8 +4,6 @@ title: My 1st year with GNU/Linux
 date: 2022-10-24
 ---
 
-Hayden White <<contact@whitevhs.xyz>>
-
 As a kid, I remember using some version of Ubuntu on one of my dad's laptops, but besides that I hadn't really used GNU/Linux on my own.
 That was until the first half of 2021, when I had started to gain interest in Linux, and a growing distaste for Windows 10 and Microsoft's unethical, anti-consumerist practices. 
 In the past, I'd heard distro names like Manjaro, Linux Mint, etc. but never *really* knew what GNU/Linux was, so I decided to take it for a spin. 
