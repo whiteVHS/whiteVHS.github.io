@@ -46,7 +46,7 @@ I'd always hear "Linux is the kernel", but didn't fully understand it for a whil
 So, to break it down very briefly, there's kernel space, and then there's user space; that's where GNU comes in.
 Software like the Bash shell, the GNU coreutils, Glibc and the GCC (GNU C Compiler), among many others are what makes the GNU operating system (unless you're an Alpine Linux user, I guess). I looked more into the GNU Project, the FSF and the Free Software Movement.
 It's unfathomable just how incredible it is that we have this LIBRE operating system today.
-The thought of only having Windows or macOS to choose from is truly dystopian.
+The thought of only having Windows or macOS to choose from is truly dystopian. I'm so grateful I'm not limited to how one company forces my computing experience to be - I have control - I get to choose.
 
 One thing I will say about making any sort of change in your life, especially big changes, is that it'll most likely come at some sort of price, or you'll end up having to sacrifice something. It's also very much okay to take your time with these changes; even small, incremental choices build up into a big change. When it comes to switching from Windows to GNU/Linux, a piece of advice I can give is to look at every piece of software you have installed, every program you use on a daily and ask yourself the following:
 
