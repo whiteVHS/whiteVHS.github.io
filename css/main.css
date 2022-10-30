@@ -122,8 +122,7 @@ ul.posts li {
 .footer-css {
 display: flex;
 flex-direction: row;
-float: left;
-justify-content: space-between;
+float: center;
+justify-content: space-around;
 align-items: baseline;
-padding: 20px;
 }
