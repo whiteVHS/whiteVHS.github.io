@@ -78,8 +78,8 @@ ul.posts li {
   opacity: 0.8;
   transition: 0.3s;
   display: inline-block;
-  width: 120px;
-  height: 35px;
+  width: 70px;
+  height: 20px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -90,8 +90,8 @@ ul.posts li {
   border: 2px solid #FF69B4;
   padding: 16px 32px;
   display: inline-block;
-  width: 100px;
-  height: 35px;
+  width: 70px;
+  height: 20px;
   text-align: center;
   margin: 4px 2px;
 }
