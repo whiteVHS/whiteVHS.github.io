@@ -75,9 +75,11 @@ ul.posts li {
   text-align: center;
   font-size: 20px;
   margin: 4px 2px;
-  opacity: 0.4;
+  opacity: 0.8;
   transition: 0.3s;
   display: inline-block;
+  width: 120px;
+  height: 35px;
   text-decoration: none;
   cursor: pointer;
 }
