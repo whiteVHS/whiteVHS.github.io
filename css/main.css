@@ -59,6 +59,18 @@ ul.posts li {
     color: white;
 }
 
+#rcorners {
+  border-radius: 25px;
+  border: 2px solid #FF69B4;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.button:hover {
+  opacity: 1
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
