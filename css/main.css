@@ -78,4 +78,5 @@ ul.posts li {
  
 .flex-container {
   display: flex;
+  flex-direction: row;
 }
