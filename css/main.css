@@ -75,8 +75,7 @@ ul.posts li {
   margin-top: 8px;
   vertical-align: middle;
 }
-
-.horizontal-list { 
-  display : flex; 
-  flex-direction: column; 
-} 
+ 
+.flex-container {
+  display: flex;
+}
