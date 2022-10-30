@@ -116,6 +116,6 @@ ul.posts li {
 .footer-css {
 display: flex;
 flex-flow: row wrap;
-align-content: flex-start;
+justify-content: space-between;
 align-items: baseline;
 }
