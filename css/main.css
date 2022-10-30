@@ -86,10 +86,10 @@ ul.posts li {
   opacity: 1;
   border-radius: 25px;
   border: 2px solid #FF69B4;
-  padding: 20px;
+  padding: 16px 32px;
   display: inline-block;
-  width: 60px;
-  height: 40px;
+  width: 120px;
+  height: 35px;
   
 }
 
