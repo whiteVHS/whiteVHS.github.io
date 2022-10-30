@@ -73,13 +73,13 @@ ul.posts li {
   color: aqua;
   padding: 16px 32px;
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   opacity: 0.8;
   transition: 0.3s;
   display: inline-block;
-  width: 70px;
-  height: 20px;
+  width: 65px;
+  height: 14px;
   text-decoration: none;
   cursor: pointer;
 }
