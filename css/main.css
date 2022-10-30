@@ -118,3 +118,8 @@ ul.posts li {
   flex-flow: row wrap;
   justify-content: space-between;  
 }
+
+.div1 {
+float: left;
+padding: 15px;
+}
