@@ -79,5 +79,5 @@ ul.posts li {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  padding:120px;  
+  justify-content: space-between;  
 }
