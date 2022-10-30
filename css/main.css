@@ -87,8 +87,10 @@ ul.posts li {
   border-radius: 25px;
   border: 2px solid #FF69B4;
   padding: 20px;
+  display: inline-block;
   width: 60px;
   height: 40px;
+  
 }
 
 .row {
