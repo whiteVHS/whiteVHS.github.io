@@ -120,8 +120,9 @@ ul.posts li {
 }
 
 .div1 {
-float: center;
-justify-content: center;
+display: flex;
+float: left;
+justify-content: space-around;
 align-items: center;
 padding: 15px;
 }
