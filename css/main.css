@@ -67,29 +67,6 @@ ul.posts li {
   height: 30px;
 }
 
-.button {
-  background-color: #000000;
-  border: none;
-  color: aqua;
-  padding: 8px 16px;
-  text-align: left;
-  font-size: 18px;
-  margin: 4px 2px;
-  opacity: 0.8;
-  transition: 0.3s;
-  display: inline-block;
-  width: 65px;
-  height: 18px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.button:hover {
-  opacity: 1;
-  border-radius: 25px;
-  border: 2px solid #FF69B4;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
