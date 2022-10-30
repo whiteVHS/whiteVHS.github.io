@@ -119,10 +119,11 @@ ul.posts li {
   justify-content: space-between;  
 }
 
-.div1 {
+.footer-css {
 display: flex;
+flex-direction: row;
 float: left;
-justify-content: space-around;
-align-items: center;
-padding: 15px;
+justify-content: space-between;
+align-items: baseline;
+padding: 20px;
 }
