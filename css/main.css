@@ -71,7 +71,7 @@ ul.posts li {
   background-color: #000000;
   border: none;
   color: aqua;
-  padding: 16px 32px;
+  padding: 8px 16px;
   text-align: left;
   font-size: 18px;
   margin: 4px 2px;
@@ -79,7 +79,7 @@ ul.posts li {
   transition: 0.3s;
   display: inline-block;
   width: 65px;
-  height: 14px;
+  height: 18px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -88,12 +88,6 @@ ul.posts li {
   opacity: 1;
   border-radius: 25px;
   border: 2px solid #FF69B4;
-  padding: 20px;
-  display: inline-block;
-  width: 70px;
-  height: 20px;
-  text-align: left;
-  margin: 4px 2px;
 }
 
 .row {
