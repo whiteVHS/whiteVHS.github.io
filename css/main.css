@@ -121,7 +121,8 @@ ul.posts li {
 
 .footer-css {
 display: flex;
-flex-direction: row;
+flex-flow: row wrap;
 justify-content: space-between;
+align-content: space-between;
 align-items: baseline;
 }
