@@ -1,0 +1,15 @@
+---
+layout: default
+title: Articles
+---
+<div class="img-right"><img src="https://64.media.tumblr.com/cb6dd8538916d72fa6fdb936fccd3b67/2ad92ee260c9f663-e4/s100x200/2f2d21ddbea7ffab45f6380b4f3d2599a9ee0b86.gifv"></div>
+	<h1>Hayden White's personal site.</h1>
+	<hr>
+	<h2><ins>{{ page.title }}</ins></h2>
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span><small><code>{{ post.date | date_to_string }}</span></small></code> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
