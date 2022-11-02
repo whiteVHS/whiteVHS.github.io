@@ -31,16 +31,16 @@ width: 66%;
     <p style="color:white">3. run the script:</p>
     <p style="color:lime"><code>./kaarbs.sh</code></p>
     <p>This script has been tested on a fresh <a href="https://archlinux.org/download/" target="_blank" rel="noopener noreferrer">Arch Linux</a> install (using the archinstall script + multilib repo + networkmanager + pipewire)</p>
-    <span class="centered"><img src="https://user-images.githubusercontent.com/111021033/184048144-cba87669-57d7-479d-bf45-ed37b7dc4fe2.png"></span>
+    <span class="centered"><a href="https://user-images.githubusercontent.com/111021033/184048144-cba87669-57d7-479d-bf45-ed37b7dc4fe2.png" target="_blank" rel="noopener noreferrer"><img src="https://64.media.tumblr.com/240e00e2ee2450b58cac2768fe37585c/5dda8f6a4c32482b-66/s540x810/a8087846adab78cb860d02b952212b4e677ed4a1.pnj"></a></span>
     <p style="text-align:center"><small>a screenshot of the test.</small></p>
     <p>This script pulls dotfiles from my <a href="https://github.com/basedghost/dotfiles/" target="_blank" rel="noopener noreferrer">personal repository</a>. There is a <a href="https://github.com/basedghost/kaarbs/blob/main/PACKAGES.md" target="_blank" rel="noopener noreferrer">complete list of packages</a> that this script gives you the choice of installing, if you'd like to check before running it.</p>
   <h1>post-script tweaks</h1>
   <hr>
-    <p>Here's a couple of things you might want to do after using kaarbs:</p>
-    <p>&#x2022; If you'd like to use the custom sudo lecture, use <span class="lime"><code>sudo visudo</code></span> and add these two lines:</p>
-    <p style="color:yellow"><code>"Defaults lecture=always"  "Defaults lecture_file=~/lecture"</code></p>
-    <p>&#x2022; If you chose to install my configs/themes, use the program lxappearance to choose an animated cursor.</p>
-    <p>&#x2022; If you installed Steam and would like to use Proton-GE, download the latest release <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases/latest/" target="_blank" rel="noopener noreferrer">here</a> and extract the .tar.gz file to this path:<span class="lsblue"><code>~/.local/share/Steam/compatibilitytools.d/</code></span></p>
+  <p>Here's a couple of things you might want to do after using kaarbs:</p>
+  <p>&#x2022; If you'd like to use the custom sudo lecture, use <span class="lime"><code>sudo visudo</code></span> and add these two lines:</p>
+  <p style="color:yellow"><code>"Defaults lecture=always"  "Defaults lecture_file=~/lecture"</code></p>
+  <p>&#x2022; If you chose to install my configs/themes, use the program lxappearance to choose an animated cursor.</p>
+  <p>&#x2022; If you installed Steam and would like to use Proton-GE, download the latest release <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases/latest/" target="_blank" rel="noopener noreferrer">here</a> and extract the .tar.gz file to this path:<span class="lsblue"><code> ~/.local/share/Steam/compatibilitytools.d/</code></span></p>
   <p>&#x2022; If you installed virt-manager, you must edit your <span class="lsblue"><code>/etc/libvirt/libvirtd.conf</code></span> and uncomment: <span class="lime"><code>"unix_sock_group"  "unix_sock_ro_perms"</code></span> and <span class="lime"><code>"unix_sock_rw_perms"</code></span></p>
   <p>Then run: <span class="lime"><code>sudo usermod -aG libvirt $(whoami)</code></span> and reboot.</p>
     </div><!-- /.blurb -->
