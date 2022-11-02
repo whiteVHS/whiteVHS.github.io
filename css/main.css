@@ -2,7 +2,7 @@ body {
     cursor: url('/default.gif'), default;
     margin: 60px auto;
     width: 70%;
-    background-image: url('https://64.media.tumblr.com/f3f57a4f8422d076cabd4a09eba8a209/1edbe5e6941de98e-45/s640x960/cc6fc865bf1a65ca503a32ccebf00c569d04dace.pnj');
+    background-image: url('/background.png');
 }
 
 nav ul, footer ul {
