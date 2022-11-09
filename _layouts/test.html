@@ -51,9 +51,10 @@ aside {
   float: left;
 }
 div.sticky {
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
 }
 		</style>
 		<nav>
@@ -70,21 +71,20 @@ div.sticky {
     		</div>
 		</ul>
 		</nav>
-  
-  <div class="aside"><div class="div.sticky">
+  		<div class="container">
+  <div class="aside" style="margin-left: -250px;"><div class="sticky">
       <ul>
-      <li><a href="/" title="Hayden White's personal site">main</a></li>
-			<li><a href="/about" title="About Hayden White">about</a></li>
-			<li><a href="/music" title="Hayden White's music">music</a></li>
-	    <li><a href="/articles" title="Hayden White's posts">posts</a></li>
-			<li><a href="/based" title="be based.">be based.</a></li>
-      <li><a href="/kaarbs" title="kojiros automated arch ricing bash script">kaarbs</a></li>
-      <li><a href="/undo" title="222">undo</a></li>
-			<li><a href="/contact" title="email me!">contact</a></li>
+        <li><a href="/" title="Hayden White's personal site">main</a></li>
+	<li><a href="/about" title="About Hayden White">about</a></li>
+	<li><a href="/music" title="Hayden White's music">music</a></li>
+	<li><a href="/articles" title="Hayden White's posts">posts</a></li>
+	<li><a href="/based" title="be based.">be based.</a></li>
+        <li><a href="/kaarbs" title="kojiros automated arch ricing bash script">kaarbs</a></li>
+        <li><a href="/undo" title="222">undo</a></li>
+	<li><a href="/contact" title="email me!">contact</a></li>
       </ul>
 </div></div>
-		<div class="container">
-    
+			
     {{ content }}
      
 </div><!-- /.container -->
