@@ -53,7 +53,6 @@ aside {
 div.sticky {
   position: sticky;
   top: 0;
-  background-color: green;
   border: 2px solid #4CAF50;
 }
 		</style>
@@ -72,7 +71,8 @@ div.sticky {
 		</ul>
 		</nav>
   		<div class="container">
-  <div class="aside" style="margin-left: -250px;"><div class="sticky">
+	    {{ content }}
+      <div class="aside" style="margin-left: -250px;"><div class="sticky">
       <ul>
         <li><a href="/" title="Hayden White's personal site">main</a></li>
 	<li><a href="/about" title="About Hayden White">about</a></li>
@@ -84,9 +84,6 @@ div.sticky {
 	<li><a href="/contact" title="email me!">contact</a></li>
       </ul>
 </div></div>
-			
-    {{ content }}
-     
 </div><!-- /.container -->
 			<footer>
 	    <p><small><b>Copyright (c) 2022 Hayden White</b></small></p>
