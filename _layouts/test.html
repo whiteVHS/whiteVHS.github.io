@@ -55,6 +55,27 @@ div.sticky {
   top: 0;
   border: 2px solid #4CAF50;
 }
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main,
+.sidebar {
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.main {
+  width: 60%;
+  height: 150vh;
+}
+
+.sidebar {
+  width: 25%;
+  height: 25vh;
+}
 		</style>
 		<nav>
     		<ul>
@@ -71,8 +92,12 @@ div.sticky {
 		</ul>
 		</nav>
   		<div class="container">
+		<div class="wrapper">
+  		<div class="main">
 	    {{ content }}
-      <div class="aside" style="margin-left: -250px;width: 150px"><div class="sticky">
+			</div>
+			
+      <div class="aside" style="margin-left: -250px;width: 150px"><div class="sidebar" style="position: sticky; top: 0;">
       <ul>
         <li><a href="/" title="Hayden White's personal site">main</a></li>
 	<li><a href="/about" title="About Hayden White">about</a></li>
