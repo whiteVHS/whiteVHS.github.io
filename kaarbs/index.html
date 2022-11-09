@@ -24,7 +24,7 @@ margin-right: auto;
   <h2><code><b>kojiros automated arch ricing bash script</b></code></h2>
   <hr>
   <p>This script is intended to be a quick/lazy way of auto-installing all the packages I normally would but with the option to pick and choose what you want to install. This is mainly for my personal use, however others can use it (at their own risk). Because of my lack of technical knowledge it does still require a <em>slight</em> amount of tinkering afterwards, but this should do for now.</p>
-  <h1>Instructions:</h1>
+  <h1 id="instructions">Instructions:</h1>
   <hr>
     <p style="color:white">1. clone the repo + move the script to your home folder:</p>
     <p style="color:lime"><code>git clone https://github.com/basedghost/kaarbs/ && mv kaarbs/kaarbs_*.sh kaarbs.sh</code></p>
@@ -35,10 +35,10 @@ margin-right: auto;
     <p style="color:white">4. (Optional) if you'd like to view the contents of the script before executing it:</p>
     <p style="color:lime"><code>cat kaarbs.sh</code></p>
     <p>This script has been tested on a fresh <a href="https://archlinux.org/download/" target="_blank" rel="noopener noreferrer">Arch Linux</a> install in QEMU-KVM<br>and on a Thinkpad T500 (using the archinstall script + multilib repo + networkmanager + pipewire).</p>
-    <p><small><b>a screenshot of the test.</b><br>(awesomeWM with my config/theme, custom neofetch, ncmpcpp and btop)</small></p>
+    <p id="screenshot"><small><b>a screenshot of the test.</b><br>(awesomeWM with my config/theme, custom neofetch, ncmpcpp and btop)</small></p>
     <span class="centered"><a href="https://user-images.githubusercontent.com/111021033/200684659-681723c1-ddcb-43f0-a3fd-d295df2ae991.png" target="_blank" rel="noopener noreferrer"><img src="https://64.media.tumblr.com/cc0c68e564fe764827a902f04eafd2ef/9c702d5dd063c61e-de/s540x810/d691b973a2ab03b1ebc4aab2b64627c2a5fa5619.pnj"></a></span>
     <p>This script pulls dotfiles from my <a href="https://github.com/basedghost/dotfiles/" target="_blank" rel="noopener noreferrer">personal repository</a>. There is a <a href="https://github.com/basedghost/kaarbs/blob/main/PACKAGES.md" target="_blank" rel="noopener noreferrer">complete list of packages</a> that this script gives you the choice of installing, if you'd like to check before running it.</p>
-  <h1>post-script tweaks</h1>
+  <h1 id="post-script-tweaks">post-script tweaks</h1>
   <hr>
   <p>Here's a couple of things you might want to do after using kaarbs:</p>
   <p>&#x2022; If you chose to install my configs and would like to use the <a href="https://github.com/basedghost/dotfiles/blob/main/lecture" target="_blank rel="noopener noreferrer">custom sudo lecture</a>, use <span class="lime"><code>sudo visudo</code></span> and add these two lines:</p>
