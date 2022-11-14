@@ -3,32 +3,83 @@ layout: default
 title: TEST
 ---
 <style>
+* {
+  box-sizing: border-box;
+}
+
 .center {
 display: block;
 margin-left: 82px;
 margin-right: auto;
 }
+
 .center2 {
 display: block;
 margin-left: 115px;
 margin-right: auto;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 </style>
 <div class="img-right" style="margin-left:-300px;"><img src="https://64.media.tumblr.com/4805794826d8f395e02159e80a9d2fda/347aba48b744c21e-22/s540x810/ce5abac4efccfc94068bfd1e1dd9bede98d62ec4.gifv" width="15%" title="Sayaka-chan is training hard!"></div>
 <div class="blurb">
         <h1>Hayden White's personal site.</h1>
 	<hr>
-	<h1 style="text-align:center; font-size:500%"><strong>NEW UNDO ALBUM OUT NOW.</strong></h1>
-	<div class="flex-container">
-<div><h2 id="inverted-matrix-digital-heaven"><b><a href="https://undo222.bandcamp.com/album/inverted-matrix-digital-heaven" target="_blank" rel="noopener noreferrer"><ins>inverted matrix / digital heaven</ins></a></b></h2>
-<iframe style="border: 0; width: 500px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=3733091496/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/" seamless><a href="https://undo222.bandcamp.com/album/inverted-matrix-digital-heaven">inverted matrix / digital heaven by UNDO</a></iframe> 
-</div>
-	<div><span class="center">
-<p style="color:yellow; text-align:center">Welcome to my little corner of the internet.<br><b>e n j o y<br>y o u r<br>s t a y</b></p>
-<img src="https://64.media.tumblr.com/651f7f85b70a9977a8ea9de87baddd33/be95e0f90b97f1b4-94/s400x600/764069bfee6e08918c6de2e5c925f5bc19bb38e9.gifv" title="e n j o y  y o u r  s t a y">
-	</span>
-	<span class="center2">
-<img src="https://64.media.tumblr.com/04609f270c9b2f5d7b8f3c68efab428b/6fe29cf499662904-b2/s540x810/53197f039868c80604af0b51f82199c712ecf0fb.gifv" style="border-radius: 25px" width="260px" height="140px">
-	</span></div>
+	<p style="color:white">I like to listen to music. Here is some that I recommend.</p></div>
+<div class="row">
+	<div class="column">
+	<p style="color:yellow">ASUKA 120% Final Burning Fest Soundtrack <small>(Album, 1999)</small></p>
+	<a href="https://downloads.khinsider.com/game-soundtracks/album/asuka-120-final-burning-fest-1999-playstation-gamerip" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/W8QGPqQ2OZqD/CX09R8SrRwqCAvdqMrw7ExohAOBrDB6wtvNM43Jj.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">UNDER NIGHT IN-BIRTH Exe: Late[st] OST <small>(Album, 2015)</small></p>
+	<a href="https://downloads.khinsider.com/game-soundtracks/album/under-night-in-birth-exe-late-st-original-soundtrack" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/3sipnuTqezfn/aGp7W07SaCcxw0eJz90sNJ9Fb1jv5bsVjGLzwmQB.jpg" style="width:222px, height:222px;"></a>
+	<p style="color:yellow">Tokyo Active NEETs - Legend of Marisa <small>(Album, 2011)</small></p>
+	<a href="https://downloads.khinsider.com/game-soundtracks/album/legend-of-marisa-original-soundtrack-2011" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/FFdq9c5Xt81C/wF2RjtslbSDhyfgQO8cKzxQEP832Mcb57ARxzezx.png" style="width:222px; height:222px"></a>
+	<p style="color:yellow">Machine Girl - Neon White Soundtrack Part 1 <small>(Album, 2022)</small></p>
+	<a href="https://machinegirl.bandcamp.com/album/neon-white-ost-1-the-wicked-heart" target="_blank" rel="noopener noreferrer"><img src="https://f4.bcbits.com/img/a3559473719_10.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">(Touhou) Swing Holic - Volume 4 <small>(Album, 2009)</small></p>
+	<a href="https://downloads.khinsider.com/game-soundtracks/album/touhou-swing-holic-vol.-04" target="_blank" rel="noopener noreferrer"><img src="https://downloads.khinsider.com/game-soundtracks/album/touhou-swing-holic-vol.-04" style="width:222px; height:222px;"></a>
+	</div>
+	<div class="column">
+	<p style="color:yellow">MIKE - Weight of the World <small>(Album, 2020)</small></p>
+	<a href="https://mikelikesrap.bandcamp.com/album/weight-of-the-world" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/QiGJRtQ04izk/DLSbsFOA5eKjrMnq0yuRDYFzR8lZlK2fPRtK4jHk.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">Madlib - The Beat Konducta Vol. 1-2: Movie Scenes <small>(Album, 2006)</small></p>
+	<a href="https://yesterdaysnewquintet.bandcamp.com/album/the-beat-konducta-vol-1-2-movie-scenes" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/Kgcw8wiMVLd6/iNDKHRx7HRoeDZx5SUZG1VgCLG7kym137gM5LoSu.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">J Dilla - Donuts <small>(Album, 2006)</small></p>
+	<a href="https://dilla.bandcamp.com/album/donuts" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/FkX0l46MMPzP/YW2GkRX6WneU52BU19wqjLX9hkg0qluCyR5zwPHR.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">Earl Sweatshirt - Some Rap Songs <small>(Album, 2020)</small></p>
+	<a href="https://soundcloud.com/earlxsweatshirtmusic/sets/some-rap-songs-1" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/Ip3f83g3ORw1/uRM5fYjYhgiQuDye7XTuSibWVzbCdMNQywqABShn.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">MIKE - "Disco!" <small>(Album, 2021)</small></p>
+	<a href="https://mikelikesrap.bandcamp.com/album/disco" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/0w41TNeVgbc3/ypc7INk4MXtXnvaL2zs37CzN0xCLXqSSPKMiipM9.jpg" style="width:222px; height:222px;"></a>
+	</div>
+	<div class="column">
+	<p style="color:yellow">ATARASHII GAKKO! - Snacktime <small>(EP, 2021)</small></p>
+	<a href="https://atarashiigakko.lnk.to/SNACKTIMEWE" target="_blank" rel="noopener noreferrer"><img src="https://atarashiigakko.com/wp-content/uploads/2022/07/1000x1000bb.webp" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">ATARASHII GAKKO! - Wakage Gaitaru <small>(Album, 2019)</small></p>
+	<a href="https://atarashiigakko.lnk.to/wakagegaitaruWE" target="_blank" rel="noopener noreferrer"><img src="https://atarashiigakko.com/wp-content/uploads/2021/01/100000x100000-999-1-1024x1024.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">ATARASHII GAKKO! - Maenarawanai <small>(Album, 2018)</small></p>
+	<a href="https://atarashiigakko.lnk.to/maenarawanaiWE" target="_blank" rel="noopener noreferrer"><img src="https://atarashiigakko.com/wp-content/uploads/2021/01/100000x100000-999-1024x1024.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">Sphere - Now Loading... SKY!! <small>(Track, 2011)</small></p>
+	<a href="https://yewtu.be/watch?v=SD9Z0SKkd6g" target="_blank" rel="noopener noreferrer"><img src="https://e.snmc.io/i/600/w/0ba4708b5af8a33d9abdf19ae2e3bca8/3431406/sphere-now-loading-sky-Cover-Art.jpg" style="width:222px; height:222px;"></a>
+	<p style="color:yellow">Perfume - Daijyobanai <small>(Track, 2014)</small></p>
+	<a href="https://yewtu.be/watch?v=VTgw5yATq2k&listen=1" target="_blank" rel="noopener noreferrer"><img src="https://pixelfed.social/storage/m/_v2/496668004746817311/a48ad3dc0-89cf68/63RWzdkxcT53/AWfv6N2RlzpXeS2xRM0J3QKWQelSgOhafNjIr1AZ.png" style="width:222px; height:222px;"></a>
+	</div>
 </div><!-- /.blurb -->
 
