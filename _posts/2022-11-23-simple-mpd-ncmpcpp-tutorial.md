@@ -3,8 +3,6 @@ layout: post
 title: Simple mpd+ncmpcpp setup tutorial
 date: 2022-11-23
 ---
-# Simple mpd + ncmpcpp tutorial
-
 
 ### Disclaimer:
 This tutorial does not cover any advanced features
