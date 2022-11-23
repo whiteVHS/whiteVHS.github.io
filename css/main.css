@@ -49,6 +49,9 @@ p {
     line-height: 1.4em;
     color: white;
 }
+code {
+    color: white;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
