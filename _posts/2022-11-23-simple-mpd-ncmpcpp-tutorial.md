@@ -24,14 +24,15 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 - For [more information on ncmpcpp](https://rybczak.net/ncmpcpp/)
 
-## Install required packages:
+# Install required packages:
 
 First you'll need to install both mpd and ncmpcpp.
 Since I am on Arch Linux, I just have to run:
 
 `sudo pacman -S mpd ncmpcpp`
 
-## Configure mpd
+# Configure mpd
+
 Now that mpd is installed, you'll want to configure it.
 The system-wide config file for mpd can be found in /etc/mpd.conf.
 Since we'll be running it as a user daemon, the config file
@@ -76,7 +77,8 @@ audio_output {
 That should be it for configuring mpd.
 Now to start it!
 
-## Starting/stopping mpd
+# Starting/stopping mpd
+
 Now that we've configured mpd for a single user, you'll need to start
 mpd with the following command:
 
