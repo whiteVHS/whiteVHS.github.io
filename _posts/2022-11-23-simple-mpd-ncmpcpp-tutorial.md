@@ -12,19 +12,19 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 ### Assumptions:
 
-Your distro's default repository ships with both mpd and ncmpcpp.
+- Your distro's default repository ships with both mpd and ncmpcpp.
 (or you are able/willing to compile from source)
 
-Your current audio server is Pipewire (run pactl info to confirm)
+- Your current audio server is Pipewire (run pactl info to confirm)
 
-You're using SystemD as your init system.
+- You're using SystemD as your init system.
 
 #### References:
-[My mpd.conf](https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf)
+- [My mpd.conf](https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf)
 
-For [more documentation on how to use mpd](https://mpd.readthedocs.io/en/latest/user.html)
+- For [more documentation on how to use mpd](https://mpd.readthedocs.io/en/latest/user.html)
 
-For [more information on ncmpcpp](https://rybczak.net/ncmpcpp/)
+- For [more information on ncmpcpp](https://rybczak.net/ncmpcpp/)
 
 ## Install required packages:
 
@@ -37,13 +37,13 @@ Now that mpd is installed, you'll want to configure it.
 The system-wide config file for mpd can be found in /etc/mpd.conf.
 Since we'll be running it as a user daemon, the config file
 must reside in your home directory. (specifically ~/.config/mpd/mpd.conf)
-First, make a directory for the mpd config:
+- First, make a directory for the mpd config:
 `mkdir ~/.config/mpd/`
 
-Then copy the config file over.
+- Then copy the config file over.
 `sudo cp /etc/mpd.conf ~/.config/mpd/mpd.conf`
 
-Now open that file in your favorite text editor
+- Now open that file in your favorite text editor
 (for simplicity sake I'll be using nano in this example)
 
 `nano ~/.config/mpd/mpd.conf`
