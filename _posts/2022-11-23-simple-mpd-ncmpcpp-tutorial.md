@@ -12,17 +12,19 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 ### Assumptions:
 
-- Your distro's default repository ships with both mpd and ncmpcpp.
+Your distro's default repository ships with both mpd and ncmpcpp.
 (or you are able/willing to compile from source)
-- Your current audio server is Pipewire (run pactl info to confirm)
-- You're using SystemD as your init system.
+
+Your current audio server is Pipewire (run pactl info to confirm)
+
+You're using SystemD as your init system.
 
 #### References:
-Here is my mpd.conf for reference: https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf
+[My mpd.conf](https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf)
 
-For more documentation on how to use mpd: https://mpd.readthedocs.io/en/latest/user.html
+For [more documentation on how to use mpd](https://mpd.readthedocs.io/en/latest/user.html)
 
-For more information on ncmpcpp: https://rybczak.net/ncmpcpp/
+For [more information on ncmpcpp](https://rybczak.net/ncmpcpp/)
 
 ## Install required packages:
 
