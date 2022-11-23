@@ -31,6 +31,12 @@ Since I am on Arch Linux, I just have to run:
 
 `sudo pacman -S mpd ncmpcpp`
 
+Additionally, you can install `mpc` to control mpd via command-line.
+
+ex: `mpc volume -2`, `mpc random on`, etc.
+
+This is useful for mapping mpd controls to keybindings.
+
 # Configure mpd
 
 Now that mpd is installed, you'll want to configure it.
