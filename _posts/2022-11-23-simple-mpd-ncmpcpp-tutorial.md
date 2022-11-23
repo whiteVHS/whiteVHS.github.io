@@ -13,11 +13,11 @@ of mpd including streaming over a network. This is to help set up a local instan
 - Your distro's default repository ships with both mpd and ncmpcpp.
 (or you are able/willing to compile from source)
 
-- Your current audio server is Pipewire (run pactl info to confirm)
+- Your current audio server is Pipewire (run `pactl info` to confirm)
 
 - You're using SystemD as your init system
 
-#### References:
+### References:
 - [My mpd.conf](https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf)
 
 - For [more documentation on how to use mpd](https://mpd.readthedocs.io/en/latest/user.html)
@@ -76,14 +76,13 @@ audio_output {
 That should be it for configuring mpd.
 Now to start it!
 
-# Starting/stopping mpd
+## Starting/stopping mpd
 Now that we've configured mpd for a single user, you'll need to start
 mpd with the following command:
 
 `systemctl --user start mpd`
 
-If you'd rather not have to start mpd manually, you can enable it
-to autostart:
+If you'd like mpd to autostart on login, you can enable it:
 `systemctl --user enable mpd`
 
 If you'd like to stop mpd:
