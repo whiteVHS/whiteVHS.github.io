@@ -17,7 +17,7 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 - Your current audio server is Pipewire (run pactl info to confirm)
 
-- You're using SystemD as your init system.
+- You're using SystemD as your init system
 
 #### References:
 - [My mpd.conf](https://github.com/basedghost/dotfiles/blob/main/.config/mpd/mpd.conf)
@@ -30,6 +30,7 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 First you'll need to install both mpd and ncmpcpp.
 Since I am on Arch Linux, I just have to run:
+
 `sudo pacman -S mpd ncmpcpp`
 
 ## Configure mpd
@@ -80,6 +81,7 @@ Now to start it!
 # Starting/stopping mpd
 Now that we've configured mpd for a single user, you'll need to start
 mpd with the following command:
+
 `systemctl --user start mpd`
 
 If you'd rather not have to start mpd manually, you can enable it
@@ -89,7 +91,7 @@ to autostart:
 If you'd like to stop mpd:
 `systemctl --user stop mpd`
 
-Now that mpd is started up, open a terminal and run:
+Once mpd is started, open a terminal and run:
 `ncmpcpp`
 
 Voila! You now have mpd running with ncmpcpp as a front-end for it.
