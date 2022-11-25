@@ -26,11 +26,12 @@ of mpd including streaming over a network. This is to help set up a local instan
 
 # Install required packages:
 
-First you'll need to install both mpd and ncmpcpp.
+First you'll need to install both mpd and ncmpcpp with your distros main package manager.
 Since I am on Arch Linux, I just have to run:
 
 `sudo pacman -S mpd ncmpcpp`
 
+If for some reason they're unavailable, you may have to compile them manually.
 Additionally, you can install `mpc` to control mpd via command-line.
 
 ex: `mpc volume -2`, `mpc random on`, etc.
@@ -44,9 +45,11 @@ The system-wide config file for mpd can be found in /etc/mpd.conf.
 Since we'll be running it as a user daemon, the config file
 must reside in your home directory. (specifically ~/.config/mpd/mpd.conf)
 First, make a directory for the mpd config:
+
 `mkdir ~/.config/mpd/`
 
 Then copy the config file over.
+
 `sudo cp /etc/mpd.conf ~/.config/mpd/mpd.conf`
 
 Now open that file in your favorite text editor
@@ -90,9 +93,11 @@ You can start mpd (as a user daemon) with the following command:
 `systemctl --user start mpd`
 
 If you'd like mpd to autostart at login:
+
 `systemctl --user enable mpd`
 
 If you'd like to stop mpd:
+
 `systemctl --user stop mpd`
 
 Once mpd is started, open a terminal and run:
@@ -101,6 +106,6 @@ Once mpd is started, open a terminal and run:
 Voila! You now have mpd running with ncmpcpp as a front-end for it.
 To show the keybindings for ncmpcpp, press F1.
 
-This may be a simple tutorial, but I hope it can prove useful!
+This may be a simple tutorial, but I hope it can prove to be useful!
 
 -H
