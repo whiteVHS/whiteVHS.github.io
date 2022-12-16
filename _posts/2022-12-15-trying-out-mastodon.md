@@ -15,4 +15,6 @@ For my account, I chose the [Fosstodon](https://fosstodon.org) instance. Of cour
 
 *(as of writing this, it seems that the @joinmastodon Twitter account has been suspended? Not sure exactly why or what this implies. I may possibly add edits in if anything else about this is noteworthy enough to add. it will be explicitly noted as such.)*
 
+* EDIT: It's the next day, and it seems that Twitter has been banning/suspending any accounts who've been reporting on Twitter/Elon. On top of that, Twitter won't allow you to post Mastodon or Pixelfed links. A lot of people are justifiably migrating from Twitter to Mastodon. There's definitely much more to all this, but for the sake of keeping it short, this is all I'll add.
+
 -H
