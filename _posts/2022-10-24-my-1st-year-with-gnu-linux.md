@@ -44,7 +44,7 @@ Once I had everything running smoothly on Arch that I had on Pop!, I decided it 
 It wasn't until I had been using GNU/Linux for a few months that I had begun looking into the history/origins of it all.
 I'd always hear "Linux is the kernel", but didn't fully understand it for a while. Okay, Linux is the kernel, but what's everything else then?
 So, to break it down very briefly, there's kernel space, and then there's user space; that's where GNU comes in.
-Software like the Bash shell, the GNU coreutils, Glibc and the GCC (GNU C Compiler), among many others are what makes the GNU operating system (unless you're an Alpine Linux user, I guess). I looked more into the GNU Project, the FSF and the Free Software Movement.
+Software like the Bash shell, the GNU coreutils, Glibc and the GCC (GNU Compiler Collection), among many others are what makes the GNU operating system (unless you're an Alpine Linux user, I guess). I looked more into the GNU Project, the FSF and the Free Software Movement.
 It's unfathomable just how incredible it is that we have this LIBRE operating system today.
 The thought of only having Windows or macOS to choose from is truly dystopian. I'm so grateful I'm not limited to how one company forces my computing experience to be - I have control - I get to choose.
 
