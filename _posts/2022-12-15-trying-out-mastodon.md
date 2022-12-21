@@ -17,4 +17,6 @@ For my account, I chose the [Fosstodon](https://fosstodon.org) instance. Of cour
 
 * EDIT: It's the next day, and it seems that Twitter has been banning/suspending any accounts who've been reporting on Twitter/Elon. On top of that, Twitter won't allow you to post Mastodon or Pixelfed links. A lot of people are justifiably migrating from Twitter to Mastodon. There's definitely much more to all this, but for the sake of keeping it short, this is all I'll add.
 
+* EDIT 2: If you find you are having trouble finding an instance (there are a lot) you can use [this site](https://instances.social/) to help you choose one. You can search by name, filters, etc. Hope this helps!
+
 -H
