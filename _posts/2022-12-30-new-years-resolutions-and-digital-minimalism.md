@@ -16,9 +16,9 @@ Going into 2023 with a digital minimalist mindset, the majority of my time will 
 
 <sub>References:</sub>
 
-<sub>Digital Minimalism | https://blog.rescuetime.com/digital-minimalism/</sub>
+<sub>Digital Minimalism | [https://blog.rescuetime.com/digital-minimalism/](https://blog.rescuetime.com/digital-minimalism/)</sub>
   
-<sub>Attention Engineering | https://overthehorizonmdos.wpcomstaging.com/2019/01/09/attention-engineering-what-it-is-how-it-is-used-and-why-warfighters-need-it/</sub>
+<sub>Attention Engineering | [https://overthehorizonmdos.wpcomstaging.com/2019/01/09/attention-engineering-what-it-is-how-it-is-used-and-why-warfighters-need-it/](https://overthehorizonmdos.wpcomstaging.com/2019/01/09/attention-engineering-what-it-is-how-it-is-used-and-why-warfighters-need-it/)</sub>
 
 <sub>Footnotes:</sub>
 
