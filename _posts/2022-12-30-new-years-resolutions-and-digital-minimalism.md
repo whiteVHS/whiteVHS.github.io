@@ -14,6 +14,8 @@ In 2022, I've made quite a bit of progress regarding the reduction of my digital
 
 Going into 2023 with a digital minimalist mindset, the majority of my time will be alloted to self-improvement and awareness. I will also be much more proactive with my relationships, spending more time in the presence of others and not online. I encourage others to reflect on their own online habits, evaluate them and to take action.
 
+Oh, and Happy New Year!
+
 -H
 
 <sub>References:</sub>
