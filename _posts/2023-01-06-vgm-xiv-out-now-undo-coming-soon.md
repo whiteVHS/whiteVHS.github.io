@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FIRST POST OF 2023 - VGM.XIV OUT NOW and info on new UNDO
+title: VGM.XIV OUT NOW and info on new UNDO
 date: 2023-01-06
 ---
 
